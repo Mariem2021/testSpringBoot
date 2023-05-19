@@ -1,0 +1,20 @@
+pipeline { 
+    agent any  
+    stages { 
+        stage('Build') { 
+            steps { 
+               echo 'This is a minimal pipeline.' 
+            }
+        }
+         stage('run') { 
+            steps { 
+               echo 'This is a minimal pipeline.' 
+            }
+        }
+         stage('test') { 
+            steps { 
+               echo 'This is a minimal pipeline.' 
+            }
+        }
+    }
+}
